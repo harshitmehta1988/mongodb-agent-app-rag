@@ -1,0 +1,378 @@
+{
+  "_id": {
+    "$oid": "68dd254c7423f697d4adb43b"
+  },
+  "id": "664f67c477d20e034377b78f",
+  "uuid": "02930710-6330-4395-be06-f6baefa9dc83",
+  "version": "16470049988",
+  "name": "file_upload_sam",
+  "displayName": "file_upload_sam",
+  "desc": "File Data Source to upload file",
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": null,
+      "name": null,
+      "displayName": null,
+      "status": null
+    },
+    "value": null
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:03:58.405Z"
+  },
+  "tags": [],
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "version": "1594850749",
+        "name": "System Admin",
+        "displayName": "System Admin",
+        "status": null
+      },
+      "value": null
+    }
+  ],
+  "publicFlag": "N",
+  "parentInfo": null,
+  "notifyOn": null,
+  "resource": null,
+  "metaStatus": "VALID",
+  "metaType": "datasource",
+  "createdDuration": null,
+  "updatedBy": null,
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:42.390Z"
+  },
+  "ownedBy": null,
+  "categoryInfo": null,
+  "scope": null,
+  "type": "FILE",
+  "access": "OS",
+  "driver": "",
+  "host": "localhost",
+  "schemaName": null,
+  "port": "",
+  "username": "",
+  "password": "NgEZnIvsIyNskSLLPboOEw==",
+  "path": "/app/framework/upload/common/sam",
+  "subType": null,
+  "sessionParameters": "",
+  "dbname": "",
+  "url": null,
+  "format": null,
+  "authType": "BASIC",
+  "oauthConsumerKey": null,
+  "oauthConsumerSecret": null,
+  "oauthToken": null,
+  "oauthTokenSecret": null,
+  "oauthSignatureMethod": null,
+  "oauthVersion": null,
+  "topicName": null,
+  "category": "FILE"
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254c68e493d321330ab2"
+  },
+  "uuid": "596283a0-f091-4692-9d9f-79b6ae07a821",
+  "version": "1703917106671",
+  "name": "mongo_framework_admin",
+  "displayName": "mongo_framework_admin",
+  "desc": null,
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85"
+    }
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:03:58.405Z"
+  },
+  "tags": [],
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "version": null,
+        "name": "Administration",
+        "displayName": "Administration",
+        "status": null
+      },
+      "value": null
+    }
+  ],
+  "publicFlag": "N",
+  "parentInfo": null,
+  "notifyOn": null,
+  "resource": null,
+  "metaStatus": "VALID",
+  "metaType": "datasource",
+  "createdDuration": 54689,
+  "updatedBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": null,
+      "name": "sys_admin",
+      "displayName": "sys_admin",
+      "status": null
+    },
+    "value": null
+  },
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:42.390Z"
+  },
+  "type": "MONGODB",
+  "access": null,
+  "driver": null,
+  "host": "localhost",
+  "schemaName": "framework",
+  "port": "27017",
+  "username": "inferyx",
+  "password": "fCTL2YbGwNMy0/KL9HGQHw==",
+  "path": null,
+  "subType": null,
+  "sessionParameters": null,
+  "dbname": "framework",
+  "url": null,
+  "format": null,
+  "authType": "BASIC",
+  "oauthConsumerKey": null,
+  "oauthConsumerSecret": null,
+  "oauthToken": null,
+  "oauthTokenSecret": null,
+  "oauthSignatureMethod": null,
+  "oauthVersion": null,
+  "topicName": null,
+  "category": "DOCDB"
+}
+
+{
+  "_id": {
+    "$oid": "68dd254cf3e3c840d9e75b43"
+  },
+  "id": "5d9ef4f8d02c7744c8246ccd",
+  "uuid": "924abe93-bc17-4b08-84a8-bad2faa4efb5",
+  "version": "1560700518",
+  "name": "mssql_framework_admin",
+  "displayName": "mssql_framework_admin",
+  "desc": null,
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85"
+    }
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:03:58.405Z"
+  },
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb"
+      }
+    }
+  ],
+  "publicFlag": "N",
+  "type": "MSSQL",
+  "access": "JDBC",
+  "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+  "host": "localhost",
+  "schemaName": "framework_admin",
+  "port": "1433",
+  "username": "SA",
+  "password": "9bMncOkwEEtehbaxBZMnpQ==",
+  "path": null,
+  "subType": null,
+  "dbname": "inferyx",
+  "url": null,
+  "format": null,
+  "authType": "BASIC",
+  "category": "RDBMS",
+  "metaType": "datasource",
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:42.390Z"
+  },
+  "sessionParams": [
+    {
+      "key": "truncate",
+      "value": "false"
+    }
+  ]
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254ceee03e844460f192"
+  },
+  "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b73024",
+  "version": "1604133753",
+  "name": "mysql_framework_admin",
+  "displayName": "mysql_framework_admin",
+  "desc": "MySql Data Source",
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85"
+    }
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:03:58.405Z"
+  },
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb"
+      }
+    }
+  ],
+  "publicFlag": "N",
+  "parentInfo": null,
+  "notifyOn": null,
+  "resource": null,
+  "type": "MYSQL",
+  "access": "JDBC",
+  "driver": "org.mariadb.jdbc.Driver",
+  "host": "localhost",
+  "schemaName": "framework_admin",
+  "port": "3306",
+  "username": "inferyx",
+  "password": "9bMncOkwEEtehbaxBZMnpQ==",
+  "path": null,
+  "subType": null,
+  "dbname": "framework_admin",
+  "url": null,
+  "format": null,
+  "authType": "BASIC",
+  "oauthConsumerKey": null,
+  "oauthConsumerSecret": null,
+  "oauthToken": null,
+  "oauthTokenSecret": null,
+  "oauthSignatureMethod": null,
+  "oauthVersion": null,
+  "topicName": null,
+  "category": "RDBMS",
+  "metaType": "datasource",
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:42.390Z"
+  },
+  "sessionParams": [
+    {
+      "key": "useSSL",
+      "value": "false"
+    }
+  ]
+}
+
+{
+  "_id": {
+    "$oid": "68dd254ca66bc5f9bd883672"
+  },
+  "id": "65981a78a31a017c06a46c2f",
+  "uuid": "d0f5ced5-195c-41ee-859d-a4d5dc088285",
+  "version": "1704467064235",
+  "name": "mysql_framework_trial",
+  "displayName": "mysql_framework_trial",
+  "desc": null,
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "c3a4e5b7-3a4f-43b6-866a-1984616ff5fc"
+    }
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:03:58.405Z"
+  },
+  "tags": [],
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d5686f26-82d2-11ee-b962-0242ac120002",
+        "version": null,
+        "name": "Account Admin"
+      },
+      "value": null
+    }
+  ],
+  "publicFlag": "N",
+  "parentInfo": null,
+  "notifyOn": null,
+  "resource": null,
+  "metaStatus": "VALID",
+  "metaType": "datasource",
+  "createdDuration": 337808,
+  "updatedBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "c3a4e5b7-3a4f-43b6-866a-1984616ff5fc",
+      "version": null,
+      "name": "sys_admin",
+      "displayName": "sys_admin",
+      "status": null
+    },
+    "value": null
+  },
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:42.390Z"
+  },
+  "ownedBy": {
+    "ref": {
+      "type": "application",
+      "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+      "version": null,
+      "name": "System Admin",
+      "displayName": "System Admin",
+      "status": null
+    },
+    "value": null
+  },
+  "type": "MYSQL",
+  "access": "JDBC",
+  "driver": "com.mysql.jdbc.Driver",
+  "host": "localhost",
+  "schemaName": "framework_trial",
+  "port": "3306",
+  "username": "inferyx",
+  "password": "9bMncOkwEEtehbaxBZMnpQ==",
+  "path": null,
+  "subType": null,
+  "sessionParameters": null,
+  "dbname": "framework_trial",
+  "url": null,
+  "format": null,
+  "authType": "BASIC",
+  "oauthConsumerKey": null,
+  "oauthConsumerSecret": null,
+  "oauthToken": null,
+  "oauthTokenSecret": null,
+  "oauthSignatureMethod": null,
+  "oauthVersion": null,
+  "topicName": null,
+  "category": "RDBMS"
+}

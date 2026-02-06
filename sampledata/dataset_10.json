@@ -1,0 +1,2001 @@
+{
+  "_id": {
+    "$oid": "68dd254bd4f928302ac3cc2e"
+  },
+  "uuid": "1030d440-18c3-4f5b-ab26-a2eb1d66a61f",
+  "version": "1557769345",
+  "name": "ds_rule_dashboard_accuracy",
+  "displayName": "ds_rule_dashboard_accuracy",
+  "desc": null,
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": "1464977196",
+      "name": "admin",
+      "displayName": "admin"
+    },
+    "value": null
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:19.614Z"
+  },
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "version": null,
+        "name": "Administration",
+        "displayName": "Administration"
+      },
+      "value": null
+    }
+  ],
+  "publicFlag": "N",
+  "dependsOn": {
+    "ref": {
+      "type": "datapod",
+      "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+      "version": null,
+      "name": "dq_result_summary_dashboard",
+      "displayName": "dq_result_summary_dashboard"
+    },
+    "value": null
+  },
+  "filterInfo": [
+    {
+      "display_seq": "0",
+      "logicalOperator": "",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 10,
+          "value": null,
+          "attributeName": "dimension",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "simple",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "ACCURACY",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    },
+    {
+      "display_seq": "1",
+      "logicalOperator": "AND",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 17,
+          "value": null,
+          "attributeName": "app_uuid",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "sysparam",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "APP_UUID",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    }
+  ],
+  "attributeInfo": [
+    {
+      "attrSourceId": "12",
+      "attrDisplaySeq": "0",
+      "attrSourceName": "app_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "17",
+        "attrName": "app_uuid",
+        "attrType": "varchar",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "0",
+      "attrDisplaySeq": "1",
+      "attrSourceName": "rule_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "0",
+        "attrName": "rule_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "1",
+      "attrDisplaySeq": "2",
+      "attrSourceName": "rule_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "1",
+        "attrName": "rule_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "2",
+      "attrDisplaySeq": "3",
+      "attrSourceName": "rule_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "2",
+        "attrName": "rule_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "3",
+      "attrDisplaySeq": "4",
+      "attrSourceName": "datapod_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "3",
+        "attrName": "datapod_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "4",
+      "attrDisplaySeq": "5",
+      "attrSourceName": "datapod_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "4",
+        "attrName": "datapod_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "5",
+      "attrDisplaySeq": "6",
+      "attrSourceName": "datapod_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "5",
+        "attrName": "datapod_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "6",
+      "attrDisplaySeq": "7",
+      "attrSourceName": "check_type",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "6",
+        "attrName": "check_type",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "7",
+      "attrDisplaySeq": "8",
+      "attrSourceName": "check_pass_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "7",
+        "attrName": "check_pass_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "8",
+      "attrDisplaySeq": "9",
+      "attrSourceName": "check_fail_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "8",
+        "attrName": "check_fail_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "9",
+      "attrDisplaySeq": "10",
+      "attrSourceName": "score",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "9",
+        "attrName": "score",
+        "attrType": "DECIMAL",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "10",
+      "attrDisplaySeq": "11",
+      "attrSourceName": "dimension",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "10",
+        "attrName": "dimension",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "11",
+      "attrDisplaySeq": "12",
+      "attrSourceName": "version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "11",
+        "attrName": "version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    }
+  ],
+  "groupBy": null,
+  "limit": -1,
+  "metaType": "dataset",
+  "updatedOn": {
+    "$date": "2025-10-01T13:07:02.694Z"
+  }
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254b007aab26d68b8998"
+  },
+  "uuid": "7c5701a8-a0dd-484d-9401-20b77c5ebf7c",
+  "version": "1557769225",
+  "name": "ds_rule_dashboard_completeness",
+  "displayName": "ds_rule_dashboard_completeness",
+  "desc": null,
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": "1464977196",
+      "name": "admin",
+      "displayName": "admin"
+    },
+    "value": null
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:19.614Z"
+  },
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "version": null,
+        "name": "Administration",
+        "displayName": "Administration"
+      },
+      "value": null
+    }
+  ],
+  "publicFlag": "N",
+  "dependsOn": {
+    "ref": {
+      "type": "datapod",
+      "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+      "version": null,
+      "name": "dq_result_summary_dashboard",
+      "displayName": "dq_result_summary_dashboard"
+    },
+    "value": null
+  },
+  "filterInfo": [
+    {
+      "display_seq": "0",
+      "logicalOperator": "",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 10,
+          "value": null,
+          "attributeName": "dimension",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "simple",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "COMPLETENESS",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    },
+    {
+      "display_seq": "1",
+      "logicalOperator": "AND",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 17,
+          "value": null,
+          "attributeName": "app_uuid",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "sysparam",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "APP_UUID",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    }
+  ],
+  "attributeInfo": [
+    {
+      "attrSourceId": "12",
+      "attrDisplaySeq": "0",
+      "attrSourceName": "app_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "17",
+        "attrName": "app_uuid",
+        "attrType": "varchar",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "0",
+      "attrDisplaySeq": "1",
+      "attrSourceName": "rule_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "0",
+        "attrName": "rule_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "1",
+      "attrDisplaySeq": "2",
+      "attrSourceName": "rule_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "1",
+        "attrName": "rule_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "2",
+      "attrDisplaySeq": "3",
+      "attrSourceName": "rule_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "2",
+        "attrName": "rule_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "3",
+      "attrDisplaySeq": "4",
+      "attrSourceName": "datapod_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "3",
+        "attrName": "datapod_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "4",
+      "attrDisplaySeq": "5",
+      "attrSourceName": "datapod_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "4",
+        "attrName": "datapod_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "5",
+      "attrDisplaySeq": "6",
+      "attrSourceName": "datapod_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "5",
+        "attrName": "datapod_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "6",
+      "attrDisplaySeq": "7",
+      "attrSourceName": "check_type",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "6",
+        "attrName": "check_type",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "7",
+      "attrDisplaySeq": "8",
+      "attrSourceName": "check_pass_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "7",
+        "attrName": "check_pass_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "8",
+      "attrDisplaySeq": "9",
+      "attrSourceName": "check_fail_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "8",
+        "attrName": "check_fail_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "9",
+      "attrDisplaySeq": "10",
+      "attrSourceName": "score",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "9",
+        "attrName": "score",
+        "attrType": "DECIMAL",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "10",
+      "attrDisplaySeq": "11",
+      "attrSourceName": "dimension",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "10",
+        "attrName": "dimension",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "11",
+      "attrDisplaySeq": "12",
+      "attrSourceName": "version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "11",
+        "attrName": "version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    }
+  ],
+  "groupBy": null,
+  "limit": -1,
+  "metaType": "dataset",
+  "updatedOn": {
+    "$date": "2025-10-01T13:07:02.694Z"
+  }
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254c3c09aee5349ef3d9"
+  },
+  "uuid": "03738b6e-2252-4da0-b3ee-083b39a66d2e",
+  "version": "1557769377",
+  "name": "ds_rule_dashboard_conformity",
+  "displayName": "ds_rule_dashboard_conformity",
+  "desc": null,
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": "1464977196",
+      "name": "admin",
+      "displayName": "admin"
+    },
+    "value": null
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:19.614Z"
+  },
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "version": null,
+        "name": "Administration",
+        "displayName": "Administration"
+      },
+      "value": null
+    }
+  ],
+  "publicFlag": "N",
+  "dependsOn": {
+    "ref": {
+      "type": "datapod",
+      "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+      "version": null,
+      "name": "dq_result_summary_dashboard",
+      "displayName": "dq_result_summary_dashboard"
+    },
+    "value": null
+  },
+  "filterInfo": [
+    {
+      "display_seq": "0",
+      "logicalOperator": "",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 10,
+          "value": null,
+          "attributeName": "dimension",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "simple",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "CONFORMITY",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    },
+    {
+      "display_seq": "1",
+      "logicalOperator": "AND",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 17,
+          "value": null,
+          "attributeName": "app_uuid",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "sysparam",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "APP_UUID",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    }
+  ],
+  "attributeInfo": [
+    {
+      "attrSourceId": "12",
+      "attrDisplaySeq": "0",
+      "attrSourceName": "app_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "17",
+        "attrName": "app_uuid",
+        "attrType": "varchar",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "0",
+      "attrDisplaySeq": "1",
+      "attrSourceName": "rule_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "0",
+        "attrName": "rule_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "1",
+      "attrDisplaySeq": "2",
+      "attrSourceName": "rule_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "1",
+        "attrName": "rule_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "2",
+      "attrDisplaySeq": "3",
+      "attrSourceName": "rule_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "2",
+        "attrName": "rule_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "3",
+      "attrDisplaySeq": "4",
+      "attrSourceName": "datapod_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "3",
+        "attrName": "datapod_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "4",
+      "attrDisplaySeq": "5",
+      "attrSourceName": "datapod_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "4",
+        "attrName": "datapod_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "5",
+      "attrDisplaySeq": "6",
+      "attrSourceName": "datapod_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "5",
+        "attrName": "datapod_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "6",
+      "attrDisplaySeq": "7",
+      "attrSourceName": "check_type",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "6",
+        "attrName": "check_type",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "7",
+      "attrDisplaySeq": "8",
+      "attrSourceName": "check_pass_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "7",
+        "attrName": "check_pass_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "8",
+      "attrDisplaySeq": "9",
+      "attrSourceName": "check_fail_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "8",
+        "attrName": "check_fail_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "9",
+      "attrDisplaySeq": "10",
+      "attrSourceName": "score",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "9",
+        "attrName": "score",
+        "attrType": "DECIMAL",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "10",
+      "attrDisplaySeq": "11",
+      "attrSourceName": "dimension",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "10",
+        "attrName": "dimension",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "11",
+      "attrDisplaySeq": "12",
+      "attrSourceName": "version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "11",
+        "attrName": "version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    }
+  ],
+  "groupBy": null,
+  "limit": -1,
+  "metaType": "dataset",
+  "updatedOn": {
+    "$date": "2025-10-01T13:07:02.694Z"
+  }
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254cceea81910587a6ad"
+  },
+  "uuid": "7153b1b7-fc39-4423-8f2d-53af52af622f",
+  "version": "1557769317",
+  "name": "ds_rule_dashboard_overall",
+  "displayName": "ds_rule_dashboard_overall",
+  "desc": null,
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": "1464977196",
+      "name": "admin",
+      "displayName": "admin"
+    },
+    "value": null
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:19.614Z"
+  },
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "version": null,
+        "name": "Administration",
+        "displayName": "Administration"
+      },
+      "value": null
+    }
+  ],
+  "publicFlag": "N",
+  "dependsOn": {
+    "ref": {
+      "type": "datapod",
+      "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+      "version": null,
+      "name": "dq_result_summary_dashboard",
+      "displayName": "dq_result_summary_dashboard"
+    },
+    "value": null
+  },
+  "filterInfo": [
+    {
+      "display_seq": "0",
+      "logicalOperator": "",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 10,
+          "value": null,
+          "attributeName": "dimension",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "simple",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "OVERALL",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    },
+    {
+      "display_seq": "1",
+      "logicalOperator": "AND",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 17,
+          "value": null,
+          "attributeName": "app_uuid",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "sysparam",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "APP_UUID",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    }
+  ],
+  "attributeInfo": [
+    {
+      "attrSourceId": "12",
+      "attrDisplaySeq": "0",
+      "attrSourceName": "app_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "17",
+        "attrName": "app_uuid",
+        "attrType": "varchar",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "0",
+      "attrDisplaySeq": "1",
+      "attrSourceName": "rule_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "0",
+        "attrName": "rule_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "1",
+      "attrDisplaySeq": "2",
+      "attrSourceName": "rule_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "1",
+        "attrName": "rule_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "2",
+      "attrDisplaySeq": "3",
+      "attrSourceName": "rule_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "2",
+        "attrName": "rule_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "3",
+      "attrDisplaySeq": "4",
+      "attrSourceName": "datapod_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "3",
+        "attrName": "datapod_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "4",
+      "attrDisplaySeq": "5",
+      "attrSourceName": "datapod_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "4",
+        "attrName": "datapod_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "5",
+      "attrDisplaySeq": "6",
+      "attrSourceName": "datapod_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "5",
+        "attrName": "datapod_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "6",
+      "attrDisplaySeq": "7",
+      "attrSourceName": "check_type",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "6",
+        "attrName": "check_type",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "7",
+      "attrDisplaySeq": "8",
+      "attrSourceName": "check_pass_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "7",
+        "attrName": "check_pass_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "8",
+      "attrDisplaySeq": "9",
+      "attrSourceName": "check_fail_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "8",
+        "attrName": "check_fail_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "9",
+      "attrDisplaySeq": "10",
+      "attrSourceName": "score",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "9",
+        "attrName": "score",
+        "attrType": "DECIMAL",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "10",
+      "attrDisplaySeq": "11",
+      "attrSourceName": "dimension",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "10",
+        "attrName": "dimension",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "11",
+      "attrDisplaySeq": "12",
+      "attrSourceName": "version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "11",
+        "attrName": "version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    }
+  ],
+  "groupBy": null,
+  "limit": -1,
+  "metaType": "dataset",
+  "updatedOn": {
+    "$date": "2025-10-01T13:07:02.694Z"
+  }
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254c4ece31214f3a667b"
+  },
+  "uuid": "724b2100-641f-4ed4-b93f-89432501ab89",
+  "version": "1557769283",
+  "name": "ds_rule_dashboard_timeliness",
+  "displayName": "ds_rule_dashboard_timeliness",
+  "desc": null,
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": "1464977196",
+      "name": "admin",
+      "displayName": "admin"
+    },
+    "value": null
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:19.614Z"
+  },
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "version": null,
+        "name": "Administration",
+        "displayName": "Administration"
+      },
+      "value": null
+    }
+  ],
+  "publicFlag": "N",
+  "dependsOn": {
+    "ref": {
+      "type": "datapod",
+      "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+      "version": null,
+      "name": "dq_result_summary_dashboard",
+      "displayName": "dq_result_summary_dashboard"
+    },
+    "value": null
+  },
+  "filterInfo": [
+    {
+      "display_seq": "0",
+      "logicalOperator": "",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 10,
+          "value": null,
+          "attributeName": "dimension",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "simple",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "TIMELINESS",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    },
+    {
+      "display_seq": "1",
+      "logicalOperator": "AND",
+      "operator": "=",
+      "operand": [
+        {
+          "ref": {
+            "type": "datapod",
+            "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+            "version": null,
+            "name": "dq_result_summary_dashboard",
+            "displayName": "dq_result_summary_dashboard"
+          },
+          "attributeId": 17,
+          "value": null,
+          "attributeName": "app_uuid",
+          "attributeType": null
+        },
+        {
+          "ref": {
+            "type": "sysparam",
+            "uuid": null,
+            "version": null,
+            "name": null,
+            "displayName": null
+          },
+          "attributeId": null,
+          "value": "APP_UUID",
+          "attributeName": null,
+          "attributeType": "string"
+        }
+      ]
+    }
+  ],
+  "attributeInfo": [
+    {
+      "attrSourceId": "12",
+      "attrDisplaySeq": "0",
+      "attrSourceName": "app_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "17",
+        "attrName": "app_uuid",
+        "attrType": "varchar",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "0",
+      "attrDisplaySeq": "1",
+      "attrSourceName": "rule_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "0",
+        "attrName": "rule_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "1",
+      "attrDisplaySeq": "2",
+      "attrSourceName": "rule_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "1",
+        "attrName": "rule_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "2",
+      "attrDisplaySeq": "3",
+      "attrSourceName": "rule_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "2",
+        "attrName": "rule_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "3",
+      "attrDisplaySeq": "4",
+      "attrSourceName": "datapod_uuid",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "3",
+        "attrName": "datapod_uuid",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "4",
+      "attrDisplaySeq": "5",
+      "attrSourceName": "datapod_version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "4",
+        "attrName": "datapod_version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "5",
+      "attrDisplaySeq": "6",
+      "attrSourceName": "datapod_name",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "5",
+        "attrName": "datapod_name",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "6",
+      "attrDisplaySeq": "7",
+      "attrSourceName": "check_type",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "6",
+        "attrName": "check_type",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "7",
+      "attrDisplaySeq": "8",
+      "attrSourceName": "check_pass_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "7",
+        "attrName": "check_pass_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "8",
+      "attrDisplaySeq": "9",
+      "attrSourceName": "check_fail_count",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "8",
+        "attrName": "check_fail_count",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "9",
+      "attrDisplaySeq": "10",
+      "attrSourceName": "score",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "9",
+        "attrName": "score",
+        "attrType": "DECIMAL",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "10",
+      "attrDisplaySeq": "11",
+      "attrSourceName": "dimension",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "10",
+        "attrName": "dimension",
+        "attrType": "VARCHAR",
+        "attrUnitType": null,
+        "function": null
+      }
+    },
+    {
+      "attrSourceId": "11",
+      "attrDisplaySeq": "12",
+      "attrSourceName": "version",
+      "function": null,
+      "sourceAttr": {
+        "ref": {
+          "type": "datapod",
+          "uuid": "fa366ab8-b775-4099-89ee-d48843f4cc90",
+          "version": null,
+          "name": "dq_result_summary_dashboard",
+          "displayName": "dq_result_summary_dashboard"
+        },
+        "value": null,
+        "attrId": "11",
+        "attrName": "version",
+        "attrType": "INTEGER",
+        "attrUnitType": null,
+        "function": null
+      }
+    }
+  ],
+  "groupBy": null,
+  "limit": -1,
+  "metaType": "dataset",
+  "updatedOn": {
+    "$date": "2025-10-01T13:07:02.694Z"
+  }
+}
+
+
+

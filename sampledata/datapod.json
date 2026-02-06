@@ -1,0 +1,1049 @@
+{
+  "_id": {
+    "$oid": "68dd254abbb45dabdde89a9b"
+  },
+  "datasource": {
+    "ref": {
+      "type": "datasource",
+      "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b73024",
+      "name": "mysql_framework_admin",
+      "displayName": "mysql_framework_admin"
+    }
+  },
+  "attributes": [
+    {
+      "attributeId": 0,
+      "displaySeq": 0,
+      "name": "document_id",
+      "type": "VARCHAR",
+      "desc": "document_id",
+      "partition": "N",
+      "dispName": "document_id",
+      "active": "Y",
+      "length": 100,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 1,
+      "displaySeq": 1,
+      "name": "alert_id",
+      "type": "VARCHAR",
+      "desc": "case_id",
+      "partition": "N",
+      "dispName": "alert_id",
+      "active": "Y",
+      "length": 100,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 2,
+      "displaySeq": 2,
+      "name": "app_uuid",
+      "type": "VARCHAR",
+      "desc": "app_uuid",
+      "partition": "N",
+      "dispName": "app_uuid",
+      "active": "Y",
+      "length": 100,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 3,
+      "displaySeq": 6,
+      "name": "file_contents",
+      "type": "LONGVARBINARY",
+      "desc": "file_contents",
+      "partition": "N",
+      "dispName": "file_contents",
+      "active": "Y",
+      "length": 16777215,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 4,
+      "displaySeq": 7,
+      "name": "active",
+      "type": "VARCHAR",
+      "desc": "active",
+      "partition": "N",
+      "dispName": "active",
+      "active": "Y",
+      "length": 1,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 5,
+      "displaySeq": 8,
+      "name": "created_on",
+      "type": "TIMESTAMP",
+      "desc": "created_on",
+      "partition": "N",
+      "dispName": "created_on",
+      "active": "Y",
+      "length": 19,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 6,
+      "displaySeq": 9,
+      "name": "created_by",
+      "type": "VARCHAR",
+      "desc": "created_by",
+      "partition": "N",
+      "dispName": "created_by",
+      "active": "Y",
+      "length": 50,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 7,
+      "displaySeq": 3,
+      "name": "file_name",
+      "type": "VARCHAR",
+      "desc": "file_name",
+      "partition": "N",
+      "dispName": "file_name",
+      "active": "Y",
+      "length": 50,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 8,
+      "displaySeq": 4,
+      "name": "file_format",
+      "type": "VARCHAR",
+      "desc": "file_format",
+      "partition": "N",
+      "dispName": "file_format",
+      "active": "Y",
+      "length": 10,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 9,
+      "displaySeq": 5,
+      "name": "file_size_mb",
+      "type": "VARCHAR",
+      "desc": "file_size_mb",
+      "partition": "N",
+      "dispName": "file_size_mb",
+      "active": "Y",
+      "length": 10,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    }
+  ],
+  "prefix": "csa",
+  "admin": "Y",
+  "datapodType": "TABLE",
+  "format": "DEFAULT",
+  "keyType": "",
+  "uuid": "a9dcaaec-aa5f-42a4-aaaa-04e5b392b9e6",
+  "version": "1687981941685",
+  "name": "alert_documents",
+  "displayName": "alert_documents",
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85"
+    }
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:05.176Z"
+  },
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "name": "Administration",
+        "displayName": "Administration"
+      }
+    }
+  ],
+  "publicFlag": "N",
+  "metaStatus": "VALID",
+  "metaType": "datapod",
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:49.107Z"
+  },
+  "physicalName": "alert_documents"
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254ae0e7b855d2f007cd"
+  },
+  "datasource": {
+    "ref": {
+      "type": "datasource",
+      "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b73024",
+      "name": "mysql_framework_admin",
+      "displayName": "mysql_framework_admin"
+    }
+  },
+  "attributes": [
+    {
+      "attributeId": 0,
+      "displaySeq": 0,
+      "name": "alert_exec_id",
+      "type": "VARCHAR",
+      "desc": "alert_exec_id",
+      "busKey": "N",
+      "key": "0",
+      "partition": "N",
+      "dispName": "alert_exec_id",
+      "active": "Y",
+      "length": 50,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "N",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 1,
+      "displaySeq": 7,
+      "name": "app_uuid",
+      "type": "VARCHAR",
+      "desc": "app_uuid",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "app_uuid",
+      "active": "Y",
+      "length": 50,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 4,
+      "displaySeq": 10,
+      "name": "total_entities",
+      "type": "INTEGER",
+      "desc": "total_entities",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "total_entities",
+      "active": "Y",
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 11,
+      "displaySeq": 12,
+      "name": "total_alerts",
+      "type": "INTEGER",
+      "desc": "total_alerts",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "total_alerts",
+      "active": "Y",
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 12,
+      "displaySeq": 8,
+      "name": "alert_name",
+      "type": "VARCHAR",
+      "desc": "alert_name",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "alert_name",
+      "active": "Y",
+      "length": 100,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 13,
+      "displaySeq": 9,
+      "name": "alert_exec_time",
+      "type": "VARCHAR",
+      "desc": "alert_exec_time",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "alert_exec_time",
+      "active": "Y",
+      "length": 50,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 14,
+      "displaySeq": 11,
+      "name": "unique_entities",
+      "type": "INTEGER",
+      "desc": "unique_entities",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "unique_entities",
+      "active": "Y",
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 15,
+      "displaySeq": 13,
+      "name": "high_alerts",
+      "type": "INTEGER",
+      "desc": "high_alerts",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "high_alerts",
+      "active": "Y",
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 16,
+      "displaySeq": 14,
+      "name": "medium_alerts",
+      "type": "INTEGER",
+      "desc": "medium_alerts",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "medium_alerts",
+      "active": "Y",
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 17,
+      "displaySeq": 15,
+      "name": "low_alerts",
+      "type": "INTEGER",
+      "desc": "low_alerts",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "low_alerts",
+      "active": "Y",
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    },
+    {
+      "attributeId": 18,
+      "displaySeq": 16,
+      "name": "info_alerts",
+      "type": "INTEGER",
+      "desc": "info_alerts",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "info_alerts",
+      "active": "Y",
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N"
+    }
+  ],
+  "prefix": "lre",
+  "admin": "N",
+  "datapodType": "TABLE",
+  "format": "DEFAULT",
+  "keyType": "PHYSICAL",
+  "label": [],
+  "uuid": "a8cb65da-3bb4-4a49-9386-ece9c47c938e",
+  "version": "1727420302919",
+  "name": "alert_exec_summary",
+  "displayName": "alert_exec_summary",
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "name": "sys_admin",
+      "displayName": "sys_admin"
+    }
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:05.176Z"
+  },
+  "tags": [],
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "version": "1704562411499",
+        "name": "System Admin",
+        "displayName": "System Admin"
+      }
+    }
+  ],
+  "publicFlag": "Y",
+  "metaStatus": "VALID",
+  "metaType": "datapod",
+  "createdDuration": 3813,
+  "updatedBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "name": "sys_admin",
+      "displayName": "sys_admin"
+    }
+  },
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:49.107Z"
+  },
+  "ownedBy": {
+    "ref": {
+      "type": "application",
+      "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+      "version": "1704562411499",
+      "name": "System Admin",
+      "displayName": "System Admin"
+    }
+  },
+  "scope": "APPLICATION",
+  "physicalName": "alert_exec_summary"
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254af21b8f4307018caa"
+  },
+  "uuid": "1ea14fd7-1e45-4572-a862-24036fdc30eb",
+  "version": "1706856189079",
+  "name": "alert_history",
+  "displayName": "alert_history",
+  "desc": null,
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": null,
+      "name": "admin",
+      "displayName": "admin",
+      "status": null
+    },
+    "value": null
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:05.176Z"
+  },
+  "tags": null,
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "version": "1704562411499",
+        "name": "System Admin",
+        "displayName": "System Admin",
+        "status": null
+      },
+      "value": null
+    }
+  ],
+  "publicFlag": "N",
+  "parentInfo": null,
+  "notifyOn": null,
+  "resource": null,
+  "metaStatus": "VALID",
+  "metaType": "datapod",
+  "createdDuration": null,
+  "updatedBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": null,
+      "name": "admin",
+      "displayName": "admin",
+      "status": null
+    },
+    "value": null
+  },
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:49.107Z"
+  },
+  "ownedBy": {
+    "ref": {
+      "type": "application",
+      "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+      "version": "1704562411499",
+      "name": "System Admin",
+      "displayName": "System Admin",
+      "status": null
+    },
+    "value": null
+  },
+  "datasource": {
+    "ref": {
+      "type": "datasource",
+      "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b73024",
+      "version": null,
+      "name": "mysql_framework_admin",
+      "displayName": "mysql_framework_admin",
+      "status": null
+    },
+    "value": null
+  },
+  "cache": null,
+  "attributes": [
+    {
+      "attributeId": 0,
+      "displaySeq": 0,
+      "name": "alert_id",
+      "type": "VARCHAR",
+      "desc": "alert_id",
+      "expression": null,
+      "key": null,
+      "partition": "N",
+      "dispName": "alert_id",
+      "active": "Y",
+      "length": 100,
+      "attrUnitType": null,
+      "domain": null,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "precision": null,
+      "scale": null,
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 1,
+      "displaySeq": 1,
+      "name": "app_uuid",
+      "type": "VARCHAR",
+      "desc": "app_uuid",
+      "expression": null,
+      "key": null,
+      "partition": "N",
+      "dispName": "app_uuid",
+      "active": "Y",
+      "length": 100,
+      "attrUnitType": null,
+      "domain": null,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "precision": null,
+      "scale": null,
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 2,
+      "displaySeq": 2,
+      "name": "action",
+      "type": "VARCHAR",
+      "desc": "action",
+      "expression": null,
+      "key": null,
+      "partition": "N",
+      "dispName": "action",
+      "active": "Y",
+      "length": 50,
+      "attrUnitType": null,
+      "domain": null,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "precision": null,
+      "scale": null,
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 3,
+      "displaySeq": 3,
+      "name": "priority",
+      "type": "VARCHAR",
+      "desc": "priority",
+      "expression": null,
+      "key": null,
+      "partition": "N",
+      "dispName": "priority",
+      "active": "Y",
+      "length": 10,
+      "attrUnitType": null,
+      "domain": null,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "precision": null,
+      "scale": null,
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 4,
+      "displaySeq": 4,
+      "name": "status",
+      "type": "VARCHAR",
+      "desc": "status",
+      "expression": null,
+      "key": null,
+      "partition": "N",
+      "dispName": "status",
+      "active": "Y",
+      "length": 50,
+      "attrUnitType": null,
+      "domain": null,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "precision": null,
+      "scale": null,
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 5,
+      "displaySeq": 5,
+      "name": "owner",
+      "type": "VARCHAR",
+      "desc": "owner",
+      "expression": null,
+      "key": null,
+      "partition": "N",
+      "dispName": "owner",
+      "active": "Y",
+      "length": 50,
+      "attrUnitType": null,
+      "domain": null,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "precision": null,
+      "scale": null,
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 6,
+      "displaySeq": 6,
+      "name": "updated_by",
+      "type": "VARCHAR",
+      "desc": "updated_by",
+      "expression": null,
+      "key": null,
+      "partition": "N",
+      "dispName": "updated_by",
+      "active": "Y",
+      "length": 50,
+      "attrUnitType": null,
+      "domain": null,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "precision": null,
+      "scale": null,
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 7,
+      "displaySeq": 7,
+      "name": "updated_on",
+      "type": "TIMESTAMP",
+      "desc": "updated_on",
+      "expression": null,
+      "key": null,
+      "partition": "N",
+      "dispName": "updated_on",
+      "active": "Y",
+      "length": 19,
+      "attrUnitType": null,
+      "domain": null,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "precision": null,
+      "scale": null,
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 8,
+      "displaySeq": 8,
+      "name": "active",
+      "type": "VARCHAR",
+      "desc": "active",
+      "expression": null,
+      "key": null,
+      "partition": "N",
+      "dispName": "active",
+      "active": "Y",
+      "length": 50,
+      "attrUnitType": null,
+      "domain": null,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "precision": null,
+      "scale": null,
+      "nullFlag": "Y"
+    }
+  ],
+  "prefix": "aet",
+  "admin": "N",
+  "datapodType": "TABLE",
+  "format": "DEFAULT",
+  "keyType": "LOGICAL",
+  "label": null,
+  "physicalName": "alert_history"
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254a6efea7da99a95383"
+  },
+  "datasource": {
+    "ref": {
+      "type": "datasource",
+      "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b73024",
+      "name": "mysql_framework_admin",
+      "displayName": "mysql_framework_admin"
+    }
+  },
+  "attributes": [
+    {
+      "attributeId": 0,
+      "displaySeq": 0,
+      "name": "note_id",
+      "type": "VARCHAR",
+      "desc": "note_id",
+      "partition": "N",
+      "dispName": "note_id",
+      "active": "Y",
+      "length": 100,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 1,
+      "displaySeq": 1,
+      "name": "alert_id",
+      "type": "VARCHAR",
+      "desc": "case_id",
+      "partition": "N",
+      "dispName": "alert_id",
+      "active": "Y",
+      "length": 100,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 2,
+      "displaySeq": 2,
+      "name": "app_uuid",
+      "type": "VARCHAR",
+      "desc": "app_uuid",
+      "partition": "N",
+      "dispName": "app_uuid",
+      "active": "Y",
+      "length": 100,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 3,
+      "displaySeq": 3,
+      "name": "note_txt",
+      "type": "VARCHAR",
+      "desc": "note_txt",
+      "partition": "N",
+      "dispName": "note_txt",
+      "active": "Y",
+      "length": 500,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 4,
+      "displaySeq": 4,
+      "name": "active",
+      "type": "CHAR",
+      "desc": "active",
+      "partition": "N",
+      "dispName": "active",
+      "active": "Y",
+      "length": 1,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 5,
+      "displaySeq": 5,
+      "name": "created_on",
+      "type": "TIMESTAMP",
+      "desc": "created_on",
+      "partition": "N",
+      "dispName": "created_on",
+      "active": "Y",
+      "length": 19,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    },
+    {
+      "attributeId": 6,
+      "displaySeq": 6,
+      "name": "created_by",
+      "type": "VARCHAR",
+      "desc": "created_by",
+      "partition": "N",
+      "dispName": "created_by",
+      "active": "Y",
+      "length": 50,
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y"
+    }
+  ],
+  "prefix": "csn",
+  "admin": "Y",
+  "datapodType": "TABLE",
+  "format": "DEFAULT",
+  "keyType": "",
+  "uuid": "7890d4d6-4774-4504-aaaa-38e191313ed3",
+  "version": "1687981898325",
+  "name": "alert_notes",
+  "displayName": "alert_notes",
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85"
+    }
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:05.176Z"
+  },
+  "active": "Y",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "name": "Administration",
+        "displayName": "Administration"
+      }
+    }
+  ],
+  "publicFlag": "N",
+  "metaStatus": "VALID",
+  "metaType": "datapod",
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:49.107Z"
+  },
+  "physicalName": "alert_notes"
+}
+
+
+{
+  "_id": {
+    "$oid": "68dd254ab393c16b9d38abfe"
+  },
+  "datasource": {
+    "ref": {
+      "type": "datasource",
+      "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b73024",
+      "name": "mysql_framework_admin",
+      "displayName": "mysql_framework_admin"
+    }
+  },
+  "cache": "Y",
+  "attributes": [
+    {
+      "attributeId": 5,
+      "displaySeq": 0,
+      "name": "app_uuid",
+      "type": "VARCHAR",
+      "desc": "app_uuid",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "app_uuid",
+      "active": "Y",
+      "length": 100,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N",
+      "incrementalKey": "N"
+    },
+    {
+      "attributeId": 0,
+      "displaySeq": 1,
+      "name": "case_id",
+      "type": "VARCHAR",
+      "desc": "case_id",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "case_id",
+      "active": "Y",
+      "length": 100,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N",
+      "incrementalKey": "N"
+    },
+    {
+      "attributeId": 1,
+      "displaySeq": 2,
+      "name": "alert_id",
+      "type": "VARCHAR",
+      "desc": "alert_id",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "alert_id",
+      "active": "Y",
+      "length": 100,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N",
+      "incrementalKey": "N"
+    },
+    {
+      "attributeId": 2,
+      "displaySeq": 3,
+      "name": "entity_type",
+      "type": "VARCHAR",
+      "desc": "entity_type",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "entity_type",
+      "active": "Y",
+      "length": 50,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N",
+      "incrementalKey": "N"
+    },
+    {
+      "attributeId": 3,
+      "displaySeq": 4,
+      "name": "entity_id",
+      "type": "VARCHAR",
+      "desc": "entity_id",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "entity_id",
+      "active": "Y",
+      "length": 500,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N",
+      "incrementalKey": "N"
+    },
+    {
+      "attributeId": 4,
+      "displaySeq": 5,
+      "name": "version",
+      "type": "BIGINT",
+      "desc": "version",
+      "busKey": "N",
+      "partition": "N",
+      "dispName": "version",
+      "active": "Y",
+      "length": 19,
+      "isCaseSensitive": "N",
+      "piiFlag": "N",
+      "cdeFlag": "N",
+      "nullFlag": "Y",
+      "hashKeyFlag": "N",
+      "incrementalKey": "N"
+    }
+  ],
+  "prefix": "uet",
+  "admin": "Y",
+  "datapodType": "TABLE",
+  "format": "DEFAULT",
+  "keyType": "",
+  "physicalName": "case_detail",
+  "uuid": "787028ff-44ea-461f-b443-947b3f52f361",
+  "version": "1687981728567",
+  "name": "case_detail",
+  "displayName": "case_detail",
+  "createdBy": {
+    "ref": {
+      "type": "user",
+      "uuid": "d04716df-e96a-419f-9118-c81342b47f85",
+      "version": "1464977196",
+      "name": "admin",
+      "displayName": "admin"
+    }
+  },
+  "createdOn": {
+    "$date": "2025-10-01T13:04:05.176Z"
+  },
+  "active": "N",
+  "locked": "N",
+  "published": "N",
+  "appInfo": [
+    {
+      "ref": {
+        "type": "application",
+        "uuid": "d7c11fd7-ec1a-40c7-ba25-7da1e8b730cb",
+        "name": "Administration",
+        "displayName": "Administration"
+      }
+    }
+  ],
+  "publicFlag": "Y",
+  "metaStatus": "VALID",
+  "metaType": "datapod",
+  "updatedOn": {
+    "$date": "2025-10-01T13:06:49.107Z"
+  }
+}
