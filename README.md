@@ -139,3 +139,17 @@ End-to-end latency is dominated by: **Voyage embedding** (user query → vector)
 - The **original repo is unchanged**; this is a separate folder/repo that reuses the same agent design and UI and adds RAG on top.
 - If `VOYAGE_API_KEY` is missing, RAG retrieval returns no context and the agent behaves like the original (no vector search).
 - Re-run `build_rag_indexes.py` or `ingest_sampledata.py` (without `--no-rag`) after adding collections or changing schema/example data so the vector indexes stay in sync.
+
+## GitHub
+
+Repo: **https://github.com/harshitmehta1988/mongodb-agent-app-rag**
+
+To push updates:
+
+```bash
+git add .
+git commit -m "Your message"
+git push origin main
+```
+
+Do not commit `.env` (it is in `.gitignore`). Use `.env.example` as a template and set `MONGODB_URI`, `ANTHROPIC_API_KEY`, and `VOYAGE_API_KEY` locally.
