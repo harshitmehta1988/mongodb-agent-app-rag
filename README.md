@@ -34,7 +34,8 @@ Create two vector search indexes in MongoDB Atlas on the **inferyx** database. I
 ```json
 {
   "fields": [
-    { "type": "vector", "path": "embedding", "numDimensions": 1024 }
+    { "type": "vector", "path": "embedding", "numDimensions": 1024,
+      "similarity": "cosine" }
   ]
 }
 ```
@@ -46,7 +47,8 @@ Create two vector search indexes in MongoDB Atlas on the **inferyx** database. I
 ```json
 {
   "fields": [
-    { "type": "vector", "path": "embedding", "numDimensions": 1024 }
+    { "type": "vector", "path": "embedding", "numDimensions": 1024,
+      "similarity": "cosine" }
   ]
 }
 ```
